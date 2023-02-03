@@ -1,0 +1,22 @@
+button {
+    font-size: 1rem;
+    color: rgb(255, 255, 255);
+    line-height: 1;
+    padding: 1rem;
+    border: none;
+    cursor: pointer;
+    margin-left: 7.7em;
+    transition: all 0.18s ease;
+    --color1: #000000;
+    --color2: #05050f;
+    --bs1: -2px -2px 0 2px var(--color1);
+    --bs2: 0 0 0 4px var(--color2);
+    box-shadow: var(--bs1), var(--bs2), var(--bs3);
+}
+
+.button:hover,
+button:hover {
+    --color1: #000000;
+    --color2: #030206;
+    background: rgba(255, 255, 255, 0.05);
+}
