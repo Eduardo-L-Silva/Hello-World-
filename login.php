@@ -8,6 +8,11 @@
     <title>Login Page</title>
     <link rel="stylesheet" href="estilo.css">
     <link rel="stylesheet" href="button.css">
+    <style>
+        body{
+            background-image: linear-gradient(to right, rgb(0,92,197), rgb(64, 41, 106)); 
+        }
+    </style>
   </head>
 
 <body>
